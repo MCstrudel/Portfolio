@@ -1,0 +1,49 @@
+        inp //henter antall tall
+        brz end
+        sta count
+read    inp // leser inn og summerer tall
+        add sum
+        sta sum
+        lda count
+        sub one
+        sta count
+        brz check
+        bra read
+check   lda sum //printer sum og gjør linjeskift
+        out
+        lda nwl
+        otc
+        lda sum
+checking sub two // trekker fra 2 helt til resultatet blir 0 eller negativt
+        brz partall
+        brp checking
+        bra oddetall
+oddetall lda o //skriver odde
+        otc
+        lda d
+        otc
+        otc
+        add one
+        otc
+        bra end
+partall lda p //skriver par
+        otc
+        lda a
+        otc
+        lda r
+        otc
+        bra end
+end     lda one //resetter sum-feltet og avslutter
+        sub one
+        sta sum 
+        hlt
+one     dat 1
+two     dat 2
+count   dat
+sum     dat
+p       dat 80
+a       dat 65
+r       dat 82
+o       dat 79
+d       dat 68
+nwl     dat 10

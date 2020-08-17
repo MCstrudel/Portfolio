@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Nov 08 17:17:10 2018
+# Process ID: 196308
+# Current directory: C:/Users/kmgrytte/thespinnerdood/thespinnerdood.runs/synth_1
+# Command line: vivado.exe -log pos_seg7_ctrl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pos_seg7_ctrl.tcl
+# Log file: C:/Users/kmgrytte/thespinnerdood/thespinnerdood.runs/synth_1/pos_seg7_ctrl.vds
+# Journal file: C:/Users/kmgrytte/thespinnerdood/thespinnerdood.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source pos_seg7_ctrl.tcl -notrace
